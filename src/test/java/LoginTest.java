@@ -23,7 +23,7 @@ public class LoginTest extends BaseTest {
 		// Assert.assertTrue(product.contains(search), "Product does not contain the
 		// search keyword");
 		
-		//test1
+		//test2
 
 	}
 
