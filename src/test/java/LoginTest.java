@@ -22,8 +22,10 @@ public class LoginTest extends BaseTest {
 		lp.Login();
 		// Assert.assertTrue(product.contains(search), "Product does not contain the
 		// search keyword");
+
+		// test2
 		
-		//test2
+		//demo1
 
 	}
 
