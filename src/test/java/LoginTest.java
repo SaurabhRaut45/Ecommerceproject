@@ -10,7 +10,7 @@ public class LoginTest extends BaseTest {
 
 	@Test
 
-	public void logintest() {
+	public void logintest() throws InterruptedException {
 		/*
 		 * WebDriver driver = new ChromeDriver(); driver.manage().window().maximize();
 		 * driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
@@ -18,7 +18,8 @@ public class LoginTest extends BaseTest {
 		 * driver.get("https://demowebshop.tricentis.com/login");
 		 */
 
-		LoginPage lp = new LoginPage(driver);
+		LoginPage lp = new LoginPage(getDriver());
+		Thread.sleep(5000);
 		lp.Login();
 		// Assert.assertTrue(product.contains(search), "Product does not contain the
 		// search keyword");

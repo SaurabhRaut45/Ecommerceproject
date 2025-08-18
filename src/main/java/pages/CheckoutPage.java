@@ -13,12 +13,12 @@ public class CheckoutPage {
 		this.driver = driver;
 	}
 	
-	By terms=By.id("termsofservice");
+	By terms=By.name("termsofservice");
 	By checkout=By.id("checkout");
 	
 	public void checkout() throws InterruptedException {
-		
-		driver.findElement(terms).click();
+		Thread.sleep(5000);
+		// driver.findElement(terms).click();
 		Thread.sleep(5000);
 		driver.findElement(checkout).click();
 	}
